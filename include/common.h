@@ -6,9 +6,10 @@
 
 typedef enum
 {
-  UI,
+  START_SCREEN,
   GAME,
-  END_SCREEN
+  END_SCREEN,
+  ABOUT
 } APP_STATE;
 
 #endif

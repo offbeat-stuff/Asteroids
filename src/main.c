@@ -1,7 +1,7 @@
 #include <raylib.h>
 
-#include "include/common.h"
-#include "include/ui.h"
+#include "common.h"
+#include "ui.h"
 
 #include <stdlib.h>
 
@@ -14,7 +14,7 @@ int main()
 {
   InitWindow(WIDTH, HEIGHT, "Asteroids");
 
-  APP_STATE app_state = UI;
+  APP_STATE app_state = START_SCREEN;
   int init = 0;
   BUTTONS buttons = {};
 
