@@ -1,2 +1,2 @@
-#define WIDTH 400
-#define HEIGHT 400
+#define WIDTH 1280
+#define HEIGHT 720
