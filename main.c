@@ -3,16 +3,21 @@
 #include "include/common.h"
 #include "include/ui.h"
 
-int main() {
-  InitWindow(WIDTH,HEIGHT,"Asteroids");
+#include <stdio.h>
+
+int main()
+{
+  InitWindow(WIDTH, HEIGHT, "Asteroids");
+
+  APP_STATE app_state = UI;
 
   while (!WindowShouldClose())
   {
     BeginDrawing();
     ClearBackground(BLACK);
-    draw_ui();
+    draw_ui(app_state);
     EndDrawing();
   }
-     
+
   CloseWindow();
 }

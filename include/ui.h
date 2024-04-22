@@ -1,1 +1,3 @@
-void draw_ui();
+#include "common.h"
+
+void draw_ui(APP_STATE);
